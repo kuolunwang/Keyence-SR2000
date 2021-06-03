@@ -24,6 +24,8 @@ Then check the connection by
 First you need to clone this repo to your workspace and re-catkin make, then you can type below command to ues it.
 
 ```
+    $ cd [your workspace]/src && git clone git@github.com:kuolunwang/Keyence-SR2000.git
+    $ cd [your workspace] && catkin make
     $ roslaunch barcode_reader SR2000.launch
 ```
 
