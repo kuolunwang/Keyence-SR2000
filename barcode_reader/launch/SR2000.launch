@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="barcode_reader_node" pkg="barcode_reader" type="SR2000.py"/>
+</launch>
