@@ -18,6 +18,11 @@ Then check the connection by
     $ ping 192.168.100.100
 ```
 
+Or you can use pytest to test it, it will test barcode scanner ip and socket connection.
+```
+    $ pytest
+```
+
 ## How to use SR2000
 
 ### Start SR2000
